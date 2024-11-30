@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Divyanshi Panchal - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+    <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="logo">Divyanshi Panchal</div>
@@ -21,158 +24,182 @@
         </div>
     </nav>
 
-    <div class="page-container">
-        <section id="home" class="section home-section">
-            <div class="section-container">
-                <div class="header-content">
-                    <div class="header-split">
-                        <div class="header-text">
-                            <h1>Divyanshi Panchal</h1>
-                            <h2>Computer Science Student | AI and Data Science Enthusiast</h2>
-                            <div class="social-links">
-                                <a href="mailto:divyanshi23.work@gmail.com">✉️</a>
-                                <a href="tel:+917303557381">📱</a>
-                                <a href="https://www.linkedin.com/in/divyanshipanchal/" target="_blank">LinkedIn</a>
-                                <a href="https://github.com/divyanshipanchal23" target="_blank">GitHub</a>
-                            </div>
-                        </div>
-                        <div class="header-image">
-                            <img src="me.jpeg" alt="Divyanshi Panchal" class="profile-photo">
-                        </div>
+    <!-- Header/Home Section -->
+    <section id="home" class="header-section">
+        <div class="header-content">
+            <div class="header-split">
+                <div class="header-text">
+                    <h1>Divyanshi Panchal</h1>
+                    <h2>Computer Science Student | AI and Data Science Enthusiast</h2>
+                    <div class="social-links">
+                        <a href="mailto:divyanshi23.work@gmail.com" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+917303557381" title="Phone">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/divyanshipanchal/" target="_blank" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/divyanshipanchal23" target="_blank" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="header-image">
+                    <img src="me.jpeg" alt="Divyanshi Panchal" class="profile-photo">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="section-container">
+            <h2 class="section-title">About Me</h2>
+            <p class="about-description">
+                Motivated and detail-oriented B.Tech Computer Science student specializing in AI and Data Science. Extensive experience in AI-driven projects, including creating dashboards, training machine learning models, and streamlining data pipelines.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="section-container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>R</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks</h3>
+                    <ul>
+                        <li>TensorFlow</li>
+                        <li>React.js</li>
+                        <li>Node.js</li>
+                        <li>Django</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Plotly</li>
+                        <li>Matplotlib</li>
+                        <li>Dash</li>
+                        <li>IBM Cloud</li>
+                        <li>TensorFlow</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <ul>
+                        <li>MongoDB</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="section-container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Data Engineering Intern</h3>
+                        <h4>Stork Rubber Pvt Ltd</h4>
+                        <ul>
+                            <li>Created dashboards with Python, improving report generation by 25%</li>
+                            <li>Managed large datasets and optimized queries for faster insights</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Data Science Trainee</h3>
+                        <h4>Decrypton Pvt Ltd</h4>
+                        <ul>
+                            <li>Developed an AI-driven web analytics dashboard with real-time insights</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="about" class="section about-section">
-            <div class="section-container">
-                <h2 class="section-title">About Me</h2>
-                <p class="section-description">
-                    Motivated and detail-oriented B.Tech Computer Science student specializing in AI and Data Science. Extensive experience in AI-driven projects, including creating dashboards, training machine learning models, and streamlining data pipelines.
-                </p>
-            </div>
-        </section>
-
-        <section id="skills" class="section skills-section">
-            <div class="section-container">
-                <h2 class="section-title">Skills</h2>
-                <div class="skills-grid">
-                    <div class="skill-category">
-                        <h3>Languages</h3>
-                        <ul>
-                            <li>Python</li>
-                            <li>C</li>
-                            <li>C++</li>
-                            <li>JavaScript</li>
-                            <li>TypeScript</li>
-                            <li>R</li>
-                        </ul>
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="legal.jpeg" alt="Legal Document Reviewer">
+                    <div class="project-info">
+                        <h3>AI-Driven Legal Document Reviewer</h3>
+                        <p>An AI-powered legal tech tool with 95% accuracy in risk flagging and compliance checks. Built with SpaCy, Legal-BERT, React.js, and Node.js.</p>
                     </div>
-                    <div class="skill-category">
-                        <h3>Frameworks</h3>
-                        <ul>
-                            <li>TensorFlow</li>
-                            <li>React.js</li>
-                            <li>Node.js</li>
-                            <li>Django</li>
-                        </ul>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Tools</h3>
-                        <ul>
-                            <li>Plotly</li>
-                            <li>Matplotlib</li>
-                            <li>Dash</li>
-                            <li>IBM Cloud</li>
-                            <li>TensorFlow</li>
-                        </ul>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Databases</h3>
-                        <ul>
-                            <li>MongoDB</li>
-                            <li>MySQL</li>
-                        </ul>
+                </div>
+                <div class="project-card">
+                    <img src="dash.jpeg" alt="AI Web Analytics Dashboard">
+                    <div class="project-info">
+                        <h3>AI Web Analytics Dashboard</h3>
+                        <p>A predictive analytics dashboard developed using Dash and OpenAI API, providing actionable insights for web optimization.</p>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="experience" class="section experience-section">
-            <div class="section-container">
-                <h2 class="section-title">Experience</h2>
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <div class="timeline-content">
-                            <h3>Data Engineering Intern</h3>
-                            <h4>Stork Rubber Pvt Ltd</h4>
-                            <ul>
-                                <li>Created dashboards with Python, improving report generation by 25%</li>
-                                <li>Managed large datasets and optimized queries for faster insights</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-content">
-                            <h3>Data Science Trainee</h3>
-                            <h4>Decrypton Pvt Ltd</h4>
-                            <ul>
-                                <li>Developed an AI-driven web analytics dashboard with real-time insights</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications-section">
+        <div class="section-container">
+            <h2 class="section-title">Certifications</h2>
+            <ul class="certifications-list">
+                <li>Artificial Intelligence Analyst (IBM)</li>
+                <li>Analytics Dashboard using Python and Plotly (IBM)</li>
+                <li>Machine Learning with R (IBM)</li>
+            </ul>
+        </div>
+    </section>
 
-        <section id="projects" class="section projects-section">
-            <div class="section-container">
-                <h2 class="section-title">Projects</h2>
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <img src="legal.jpeg" alt="Legal Document Reviewer">
-                        <div class="project-info">
-                            <h3>AI-Driven Legal Document Reviewer</h3>
-                            <p>An AI-powered legal tech tool with 95% accuracy in risk flagging and compliance checks. Built with SpaCy, Legal-BERT, React.js, and Node.js.</p>
-                        </div>
-                    </div>
-                    <div class="project-card">
-                        <img src="dash.jpeg" alt="AI Web Analytics Dashboard">
-                        <div class="project-info">
-                            <h3>AI Web Analytics Dashboard</h3>
-                            <p>A predictive analytics dashboard developed using Dash and OpenAI API, providing actionable insights for web optimization.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="certifications" class="section certifications-section">
-            <div class="section-container">
-                <h2 class="section-title">Certifications</h2>
-                <ul class="certifications-list">
-                    <li>Artificial Intelligence Analyst (IBM)</li>
-                    <li>Analytics Dashboard using Python and Plotly (IBM)</li>
-                    <li>Machine Learning with R (IBM)</li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="contact" class="section contact-section">
-            <div class="section-container">
-                <h2 class="section-title">Contact Me</h2>
-                <form class="contact-form">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
-                    <textarea placeholder="Your Message" required></textarea>
-                    <button type="submit">Send Message</button>
-                </form>
-            </div>
-        </section>
-    </div>
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="section-container">
+            <h2 class="section-title">Contact Me</h2>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
 
     <footer>
-        © 2024 Divyanshi Panchal. All Rights Reserved.
+        <p>&copy; 2024 Divyanshi Panchal. All Rights Reserved.</p>
     </footer>
+
+    <script>
+        // Smooth scrolling for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
+
