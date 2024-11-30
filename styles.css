@@ -273,22 +273,16 @@ footer {
     padding: 20px;
 }
 
-/* Responsive Design */
-@media screen and (max-width: 1024px) {
-    .skills-grid,
-    .projects-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
+/* Responsive Adjustments */
 @media screen and (max-width: 768px) {
-    .skills-grid,
-    .projects-grid {
-        grid-template-columns: 1fr;
+    .profile-container {
+        flex-direction: column;
+        gap: 20px;
     }
 
-    .nav-menu {
-        display: none; /* You might want to implement a mobile menu */
+    .profile-photo {
+        width: 200px;
+        height: 200px;
     }
 
     .header-content h1 {
